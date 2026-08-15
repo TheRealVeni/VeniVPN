@@ -12,3 +12,6 @@ stable way to reach it from the internet (public IP, port forwarding, or tunnel)
 ssh for administration
 firewall such as ufw or nftables
 docker to host multiple services
+
+
+You'll need to forward UDP port 51820 from your router to the HomeVPS machine if the VPS is behind your home router. The generated laptop.conf can then be imported into the WireGuard client.
