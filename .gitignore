@@ -1,0 +1,8 @@
+# HomeVPS secrets
+/etc/homevps/wireguard/
+vpn/clients/
+
+# WireGuard keys/configs
+*.key
+*.conf
+*.qr.txt
